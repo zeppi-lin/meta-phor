@@ -6,7 +6,8 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 SRC_URI = "git://github.com/zeppi-lin/ciao.git;protocol=https"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "40d69f426b84670fff96bf7edca7a730bf092781"
+SRCREV = "100dc934586f08e81075f6086aea23e17fd1ecb1"
+
 
 S = "${WORKDIR}/git"
 

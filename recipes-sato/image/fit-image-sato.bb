@@ -4,6 +4,8 @@ require recipes-sato/images/core-image-sato.bb
 
 IMAGE_INSTALL += "ciao"
 
-#IMAGE_FEATURES = "foo"
+FEATURE_PACKAGES_debug-utils = "packagegroup-debug-utils"
+
+IMAGE_FEATURES += "ssh-server-openssh tools-debug eclipse-debug debug-utils"
 
 LICENSE = "MIT"

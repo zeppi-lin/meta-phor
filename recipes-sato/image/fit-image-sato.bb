@@ -2,7 +2,7 @@ DESCRIPTION = "Custom core-image-sato image"
 
 require recipes-sato/images/core-image-sato.bb
 
-IMAGE_INSTALL += "ciao"
+IMAGE_INSTALL += "ciao mono mono-helloworld"
 
 FEATURE_PACKAGES_debug-utils = "packagegroup-debug-utils"
 
